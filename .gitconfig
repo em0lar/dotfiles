@@ -1,0 +1,16 @@
+[user]
+name = Leo Maroni
+email = git@em0lar.de
+signingkey = 430411806903447FF65FCBCBB1ADA545CD2CBACD
+
+[commit]
+gpgsign = true
+
+[core]
+excludesfile = ~/.gitignore_global
+
+[pull]
+ff = only
+
+[init]
+templateDir = /home/em0lar/.config/git/template
