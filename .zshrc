@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 
 autoload -U promptinit; promptinit
 prompt pure
+~/.backup.sh
 
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
