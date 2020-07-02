@@ -1,3 +1,5 @@
+export PURE_GIT_PULL=0
+
 export SSH_AGENT_PID=""
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 
