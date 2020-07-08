@@ -10,13 +10,17 @@ fi
 
 date +%Y-%m-%d > ~/.backup/last_backup_asked
 
-read -p "[.backup.sh] Do you want to backup now? (Y/N) " -n 1 -r
-echo ""
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-  echo "[.backup.sh] Do not run backup, I won't ask you until tomorrow"
-  exit 1
-fi
-
-echo "[.backup.sh] Run backup, please wait"
-borgmatic
+dialog --title "Run backup" --yesno "Do you want to backup now?" 7 60
+response=$?
+case $response in
+   0)
+    echo "[.backup.sh] Run backup, please wait"
+    borgmatic
+    ;;
+   1)
+    echo "[.backup.sh] Do not run backup, I won't ask you until tomorrow"
+    ;;
+   255)
+     echo "[.backup.sh] Do not run backup, I won't ask you until tomorrow"
+     ;;
+esac
