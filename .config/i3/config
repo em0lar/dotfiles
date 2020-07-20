@@ -162,7 +162,7 @@ bindsym $mod+shift+d exec "teiler --screenshot"
 
 # suspend and lock
 bindsym $mod+shift+s exec systemctl suspend
-bindsym $mod+shift+a exec "/usr/bin/i3lock -i /opt/lockscreen/laptop-out-of-oder_broken_large."
+bindsym $mod+shift+a exec "/usr/bin/i3lock -i /opt/laptop-out-of-oder_broken.png"
 
 # display brightness
 bindsym XF86MonBrightnessDown exec light -U 10
