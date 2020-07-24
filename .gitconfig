@@ -6,6 +6,9 @@ signingkey = 430411806903447FF65FCBCBB1ADA545CD2CBACD
 [commit]
 gpgsign = true
 
+[tag]
+gpgsign = true
+
 [core]
 excludesfile = ~/.gitignore_global
 

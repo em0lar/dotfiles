@@ -9,7 +9,7 @@ set $mod Mod4
 font pango:"Jetbrains Mono" 8
 
 # Set background image
-exec feh --bg-fill feh --bg-fill NAS/00\ Leo\ PRIVAT/10\ Bilder/Hintergrundbilder/berlin-ice.jpg
+exec feh --bg-fill feh --bg-fill NAS/00\ Leo\ PRIVAT/10\ Bilder/Hintergrundbilder/pan_sky__by_torcallta_dbltdsg.png 
 
 # Redshift
 exec redshift
