@@ -10,7 +10,7 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 
 export EDITOR=nvim
 
-alias cat="lolcat"
+alias cat="pridecat --pan"
 alias tb="nc termbin.com 9999"
 alias vim="nvim"
 alias ip="ip -c"
