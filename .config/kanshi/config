@@ -1,0 +1,8 @@
+profile home {
+  output eDP-1 mode 1920x1080 position 960,1200
+  output DP-2 mode 3840x1200 position 0,0
+  exec swaymsg '[workspace="2"]', move workspace to output DP-2
+}
+profile default {
+  output eDP-1 mode 1920x1080 position 0,0
+}

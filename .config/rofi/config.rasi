@@ -1,0 +1,5 @@
+configuration {
+	terminal: "/usr/bin/env dbus-launch gnome-terminal";
+	ssh-command: "{terminal} -- ssh {host} [-p {port}]";
+	theme: "/usr/share/rofi/themes/Pop-Dark.rasi";
+}
