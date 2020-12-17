@@ -8,7 +8,7 @@ input * xkb_options compose:prsc
 font pango:"Jetbrains Mono" 8
 
 # Set background image
-output "*" bg ~/NAS/00\ Leo\ PRIVAT/10\ Bilder/Hintergrundbilder/river.png fill
+output "*" bg ~/NAS/00\ Leo\ PRIVAT/10\ Bilder/Hintergrundbilder/pbb/river.png fill
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
