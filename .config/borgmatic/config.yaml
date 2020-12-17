@@ -85,8 +85,7 @@ retention:
     keep_weekly: 4
 
     # Number of monthly archives to keep.
-    keep_monthly: 3
-
+    keep_monthly: 12
 
     # When pruning, only consider archive names starting with this prefix.
     # Borg placeholders can be used. See the output of "borg help placeholders" for
