@@ -4,6 +4,9 @@ set $mod Mod4
 # compose key
 input * xkb_options compose:prsc
 
+# touchpad
+input 1267:32:Elan_Touchpad tap enabled
+
 # Window title font
 font pango:"Jetbrains Mono" 8
 
