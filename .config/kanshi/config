@@ -6,3 +6,8 @@ profile home {
 profile default {
   output eDP-1 mode 1920x1080 position 0,0
 }
+
+#profile tv {
+#  output HDMI-A-2 mode 3840x2160 position 0,0 scale 2
+#  output eDP-1 mode 1920x1080 position 960,2160
+#}

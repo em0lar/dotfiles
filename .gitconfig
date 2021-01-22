@@ -1,5 +1,5 @@
 [user]
-name = Leo Maroni
+name = Leo 'em0lar' Maroni
 email = git@em0lar.de
 signingkey = 430411806903447FF65FCBCBB1ADA545CD2CBACD
 
@@ -17,3 +17,6 @@ ff = only
 
 [init]
 templateDir = /home/em0lar/.config/git/template
+	defaultBranch = main
+[alias]
+	pfutsch = push --force

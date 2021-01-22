@@ -8,7 +8,7 @@ location:
     # Stay in same file system (do not cross mount points).
     one_file_system: True
     repositories:
-        - backup@helene.int.sig.de.labcode.de:/mnt/backup/repos/mimas.int.sig.de.labcode.de
+        - backup@helene.int.sig.de.labcode.de:/mnt/backup/repos/unsynced/mimas.int.sig.de.labcode.de
 
     # Any paths matching these patterns are excluded from backups. Globs and tildes
     # are expanded. See the output of "borg help patterns" for more details.
